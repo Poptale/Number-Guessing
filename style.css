@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "permanent marker", cursive;
+}
+*::selection{
+    background-color: white;
+    color: black;
+}
+
+nav{
+    height: 10vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.container{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.score{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+} .score::selection{
+    background-color: #000;
+    color: white;
+}
+.buton{
+    border: none;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+    font-size: 15px;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+    margin: 10px 0px 0px 4px;
+}
+.buton:hover{
+    background-color: #fff;
+    color: #000;
+    border: 3px solid #000;
+}
+
+
+.main-game{
+    height: 70vh;
+    width: 70vh;
+    background-color: #000000;
+    border-radius: 25px;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+}
+
+input{
+    height: 10vh;
+    width: 45vh;
+    border: 3px solid white;
+    border-radius: 20px;
+    outline: none;
+    background-color: #000000;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+input::placeholder{
+    color: white;
+}
+
+button{
+    border: none;
+    background-color: #fff;
+    color: black;
+    text-align: center;
+    height: 50px;
+    width: 200px;
+    border-radius: 20px;
+    font-size: 20px;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+button:hover{
+    background-color: black;
+    color: white;
+    border: 3px solid white;
+}
+
+.result-container{
+    height: 70vh;
+    width: 70vh;
+    background-color: black;
+    display: none;
+    border-radius: 25px;
+    color: white;
+    font-size: 20px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.newH1{
+    font-size: 35px;
+}
+.choices{
+    font-size: 40px;
+}
+.result-message{
+    font-size: 40px;
+    color: red;
+    padding: 0px 0 10px 0;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Number guessing game</title>
+</head>
+<body>
+    <nav>
+        <h1>Number guessing game</h1>
+    </nav>
+    <div class="container">
+        <div class="main-game">
+            <div class="h1">
+                <h1>Guess your number</h1>
+                <p>Number is between <br> <b>1-10</b></p>
+            </div>
+            <div class="input">
+                <input type="text" placeholder="Enter your number">
+            </div>
+            <div class="button">
+                <button>Check</button>
+            </div>
+        </div>
+        
+        <div class="result-container">
+            <div class="h1">
+                <h1 style = "background-color: white; color: black; padding : 0 20px; border-radius: 10px;">Result</h1>
+            </div>
+            <div class="result">
+                <h1 class = "newH1">Coumputer choose</h1>
+                <p class = "choices">10</p>
+                <h1 class = "newH1">You choose</h1>
+                <p class = "choices color">0</p>
+                <h1 class = "newH1">That means</h1>
+                <p class = "result-message">You Loose</p>
+            </div>
+            <div class="button result-button">
+                <button class ="result-button">Try again</button>
+            </div>
+        </div>
+        <div class="score">
+            <h1>Win: <span class="win">0</span></h1>
+            <h1>Lose: <span class="lose">0</span></h1>
+            <button class="buton">Clear</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
