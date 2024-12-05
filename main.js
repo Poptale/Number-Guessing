@@ -12,8 +12,7 @@ let win = 0;
 let lose = 0;
 
 
-button.addEventListener("click", () => {
-    
+button.addEventListener("click", (e) => {
     let userNo = input.value;
     let randomNo = Math.floor(Math.random() * 10);
     
